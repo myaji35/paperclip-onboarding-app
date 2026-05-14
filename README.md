@@ -39,13 +39,11 @@ Every push to `main` triggers `.github/workflows/deploy.yml`, which builds the s
 
 The live URL is the GitHub Pages URL for this repo:
 
-```
-https://<github-org>.github.io/<repo-name>/
-```
+**https://myaji35.github.io/paperclip-onboarding-app/**
 
-It is also printed in the Actions run summary under the `deploy` job.
+The same URL is printed in the Actions run summary under the `deploy` job, so future renames of the repo or owner update automatically there.
 
-> First-time setup: in repo Settings → Pages, set **Source = GitHub Actions**. After that, deploys are automatic.
+> First-time setup (already done for this repo): in repo Settings → Pages, set **Source = GitHub Actions**. After that, deploys are automatic.
 
 ## Layout
 
